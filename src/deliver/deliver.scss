@@ -1,0 +1,24 @@
+.deliver {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background: #f5f6ff;
+  border-radius: 16px;
+  &__shipping {
+    padding: 10px 34px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #747988;
+    background: #f5f6ff;
+    border-radius: 16px;
+  }
+
+  & .select {
+    color: #172039;
+    box-shadow: 0px 5px 5px rgba(0, 44, 168, 0.06);
+    border-radius: 13px;
+  }
+}

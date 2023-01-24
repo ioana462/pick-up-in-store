@@ -1,0 +1,16 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  border: 1px solid #d7d9e8;
+  border-radius: 16px;
+  padding: 10px;
+  &__bar {
+    width: 100%;
+    border: none;
+    line-height: 20px;
+    padding: 6px;
+  }
+}
